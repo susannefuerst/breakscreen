@@ -28,8 +28,10 @@ public class BreakFrame extends JFrame {
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		initLabel();
 		getContentPane().add(label, BorderLayout.CENTER);
+		pack();
 		setVisible(true);
-		minimize();
+		maximize();
+//		minimize();
 	}
 
 	private void initLabel() {
